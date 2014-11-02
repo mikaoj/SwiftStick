@@ -31,6 +31,7 @@ class ViewController: UIViewController, SwiftStickViewDelegate {
         stickView.delegate = self
     }
     
+    // MARK: SwiftStickViewDelegate
     func swiftStickView(swiftStickView: SwiftStickView, didChangeToDirection toDirection: SwiftStickDirection, fromDirection: SwiftStickDirection) {
         label.text = "\(toDirection)"
     }

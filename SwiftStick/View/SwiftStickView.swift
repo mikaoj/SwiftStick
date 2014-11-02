@@ -186,7 +186,7 @@ protocol SwiftStickViewDelegate: class {
         addSubview(stickView)
     }
     
-    // MARK: - Touch
+    // MARK: Touch
     override func touchesBegan(touches: NSSet, withEvent event: UIEvent) {
         handleTouch(touches)
     }
