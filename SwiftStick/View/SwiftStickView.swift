@@ -233,6 +233,20 @@ protocol SwiftStickViewDelegate: class {
     }
     
     private func moveStick(var position: CGPoint) {
+        let normalizedPosition = position - baseView.center
+        let len = Double(sqrt(pow(normalizedPosition.x, 2) + pow(normalizedPosition.y, 2)))
+        
+        let radius = 60.0;
+        if len > radius {
+            let angle = atan2(Double(normalizedPosition.y), Double(normalizedPosition.x))
+            
+            let x = cos(angle) * radius + Double(baseView.center.x);
+            let Y = sin(angle) * radius + Double(baseView.center.y);
+            
+            position.x = CGFloat(x)
+            position.y = CGFloat(Y)
+        }
+        
         stickView.center = position
     }
     
