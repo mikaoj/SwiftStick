@@ -1,9 +1,9 @@
 Pod::Spec.new do |s|
   s.name         = "SwiftStick"
   s.version      = "0.1"
-  s.summary      = "SwiftStick is a virtual joystick implemented in Swift"
+  s.summary      = "8 direction virtual joystick"
   s.description  = <<-DESC
-  8 direction virtual joystick
+  8 direction virtual joystick implemented in Swift
                    DESC
   s.homepage     = "https://github.com/mikaoj/SwiftStick"
   s.license      = "MIT"
@@ -13,8 +13,7 @@ Pod::Spec.new do |s|
   s.source_files  = "SwiftStick/View/*.{swift}"
   s.requires_arc = true
   s.frameworks = 'UIKit'
-  s.screenshots = ["https://cloud.githubusercontent.com/assets/4034956/4519853/de47afca-4ccd-11e4-9b6b-1a5aea5d9a69.png",
-                   "https://cloud.githubusercontent.com/assets/4034956/4519855/de4df42a-4ccd-11e4-865c-4d2e8de6b135.png",
-                   "https://cloud.githubusercontent.com/assets/4034956/4519854/de4a3c68-4ccd-11e4-8258-314ead7e959c.png"]
+  s.screenshots = ["https://cloud.githubusercontent.com/assets/4034956/4874688/26d3e87a-6269-11e4-8b28-87a8fe090df9.png",
+                   "https://cloud.githubusercontent.com/assets/4034956/4874687/26ccf452-6269-11e4-8bd5-abca55fd83c6.png"]
 end
 
