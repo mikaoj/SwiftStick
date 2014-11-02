@@ -22,16 +22,13 @@
 
 import UIKit
 
-@IBDesignable class StickBaseView: UIView {
+@IBDesignable internal class StickBaseView: UIView {
     override func drawRect(rect: CGRect) {
         //When drawing in paintcode i uses a 500x500 frame.
         //Scale to match current frame
         CGContextScaleCTM(UIGraphicsGetCurrentContext(), rect.width/500.0, rect.height/500.0)
         drawBase(frame: rect)
     }
-    
-    //// PaintCode Trial Version
-    //// www.paintcodeapp.com
     
     private func drawBase(#frame: CGRect) {
         //// Color Declarations

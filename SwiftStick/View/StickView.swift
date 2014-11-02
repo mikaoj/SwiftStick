@@ -22,7 +22,7 @@
 
 import UIKit
 
-@IBDesignable class StickView: UIView {
+@IBDesignable internal class StickView: UIView {
     override func drawRect(rect: CGRect) {
         //When drawing in paintcode i uses a 500x500 frame.
         //Scale to match current frame
