@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14A388a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="kue-D8-VtW">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="SSu-ua-CLm">
+            <objects>
+                <viewController id="kue-D8-VtW" customClass="ViewController" customModule="SwiftStick" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="JLa-XS-wbA"/>
+                        <viewControllerLayoutGuide type="bottom" id="Tgx-9o-zuP"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="1R6-hE-up3">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zkD-DG-neZ" customClass="SwiftStickView" customModule="SwiftStick" customModuleProvider="target">
+                                <rect key="frame" x="175" y="175" width="250" height="250"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="250" id="Vw6-Yz-Ded"/>
+                                    <constraint firstAttribute="width" constant="250" id="f0d-09-6cb"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mrc-fb-QTZ">
+                                <rect key="frame" x="16" y="433" width="568" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Mrc-fb-QTZ" firstAttribute="leading" secondItem="1R6-hE-up3" secondAttribute="leadingMargin" id="1To-0H-sye"/>
+                            <constraint firstItem="Mrc-fb-QTZ" firstAttribute="top" secondItem="zkD-DG-neZ" secondAttribute="bottom" constant="8" id="7By-cK-2D2"/>
+                            <constraint firstAttribute="centerY" secondItem="zkD-DG-neZ" secondAttribute="centerY" id="AUX-Gx-A4s"/>
+                            <constraint firstItem="Mrc-fb-QTZ" firstAttribute="trailing" secondItem="1R6-hE-up3" secondAttribute="trailingMargin" id="jTS-eF-0GB"/>
+                            <constraint firstAttribute="centerX" secondItem="zkD-DG-neZ" secondAttribute="centerX" id="maB-FC-rpd"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="label" destination="Mrc-fb-QTZ" id="Mez-Nl-XMZ"/>
+                        <outlet property="stickView" destination="zkD-DG-neZ" id="27Z-sz-RvX"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ise-uK-GcJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="337" y="205"/>
+        </scene>
+    </scenes>
+</document>

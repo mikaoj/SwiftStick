@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		55CD2DA61A01950C00381FB1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CD2DA51A01950C00381FB1 /* AppDelegate.swift */; };
-		55CD2DA81A01950C00381FB1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CD2DA71A01950C00381FB1 /* ViewController.swift */; };
-		55CD2DAB1A01950C00381FB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55CD2DA91A01950C00381FB1 /* Main.storyboard */; };
 		55CD2DAD1A01950C00381FB1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55CD2DAC1A01950C00381FB1 /* Images.xcassets */; };
-		55CD2DB01A01950C00381FB1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55CD2DAE1A01950C00381FB1 /* LaunchScreen.xib */; };
 		55CD2DBC1A01950D00381FB1 /* SwiftStickTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CD2DBB1A01950D00381FB1 /* SwiftStickTests.swift */; };
+		55CD2DCA1A0195C800381FB1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CD2DC61A0195C800381FB1 /* AppDelegate.swift */; };
+		55CD2DCB1A0195C800381FB1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CD2DC71A0195C800381FB1 /* ViewController.swift */; };
+		55CD2DCF1A0196A300381FB1 /* StickDemo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55CD2DCE1A0196A300381FB1 /* StickDemo.storyboard */; };
+		55CD2DD11A01970000381FB1 /* SwiftStickView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CD2DD01A01970000381FB1 /* SwiftStickView.swift */; };
+		55CD2DD51A02766600381FB1 /* StickBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CD2DD41A02766600381FB1 /* StickBaseView.swift */; };
+		55CD2DD71A028B9700381FB1 /* StickView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CD2DD61A028B9700381FB1 /* StickView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,14 +30,16 @@
 /* Begin PBXFileReference section */
 		55CD2DA01A01950C00381FB1 /* SwiftStick.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftStick.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55CD2DA41A01950C00381FB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		55CD2DA51A01950C00381FB1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		55CD2DA71A01950C00381FB1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		55CD2DAA1A01950C00381FB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		55CD2DAC1A01950C00381FB1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		55CD2DAF1A01950C00381FB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		55CD2DB51A01950D00381FB1 /* SwiftStickTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftStickTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		55CD2DBA1A01950D00381FB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		55CD2DBB1A01950D00381FB1 /* SwiftStickTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftStickTests.swift; sourceTree = "<group>"; };
+		55CD2DC61A0195C800381FB1 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		55CD2DC71A0195C800381FB1 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		55CD2DCE1A0196A300381FB1 /* StickDemo.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = StickDemo.storyboard; sourceTree = "<group>"; };
+		55CD2DD01A01970000381FB1 /* SwiftStickView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftStickView.swift; sourceTree = "<group>"; };
+		55CD2DD41A02766600381FB1 /* StickBaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StickBaseView.swift; sourceTree = "<group>"; };
+		55CD2DD61A028B9700381FB1 /* StickView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StickView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,11 +81,9 @@
 		55CD2DA21A01950C00381FB1 /* SwiftStick */ = {
 			isa = PBXGroup;
 			children = (
-				55CD2DA51A01950C00381FB1 /* AppDelegate.swift */,
-				55CD2DA71A01950C00381FB1 /* ViewController.swift */,
-				55CD2DA91A01950C00381FB1 /* Main.storyboard */,
-				55CD2DAC1A01950C00381FB1 /* Images.xcassets */,
-				55CD2DAE1A01950C00381FB1 /* LaunchScreen.xib */,
+				55CD2DC51A0195C800381FB1 /* Controller */,
+				55CD2DC81A0195C800381FB1 /* Model */,
+				55CD2DC91A0195C800381FB1 /* View */,
 				55CD2DA31A01950C00381FB1 /* Supporting Files */,
 			);
 			path = SwiftStick;
@@ -90,9 +92,10 @@
 		55CD2DA31A01950C00381FB1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				55CD2DAC1A01950C00381FB1 /* Images.xcassets */,
 				55CD2DA41A01950C00381FB1 /* Info.plist */,
 			);
-			name = "Supporting Files";
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		55CD2DB81A01950D00381FB1 /* SwiftStickTests */ = {
@@ -110,6 +113,33 @@
 				55CD2DBA1A01950D00381FB1 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		55CD2DC51A0195C800381FB1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				55CD2DC61A0195C800381FB1 /* AppDelegate.swift */,
+				55CD2DC71A0195C800381FB1 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		55CD2DC81A0195C800381FB1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		55CD2DC91A0195C800381FB1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				55CD2DCE1A0196A300381FB1 /* StickDemo.storyboard */,
+				55CD2DD01A01970000381FB1 /* SwiftStickView.swift */,
+				55CD2DD41A02766600381FB1 /* StickBaseView.swift */,
+				55CD2DD61A028B9700381FB1 /* StickView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,8 +222,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55CD2DAB1A01950C00381FB1 /* Main.storyboard in Resources */,
-				55CD2DB01A01950C00381FB1 /* LaunchScreen.xib in Resources */,
+				55CD2DCF1A0196A300381FB1 /* StickDemo.storyboard in Resources */,
 				55CD2DAD1A01950C00381FB1 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -212,8 +241,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55CD2DA81A01950C00381FB1 /* ViewController.swift in Sources */,
-				55CD2DA61A01950C00381FB1 /* AppDelegate.swift in Sources */,
+				55CD2DD71A028B9700381FB1 /* StickView.swift in Sources */,
+				55CD2DD51A02766600381FB1 /* StickBaseView.swift in Sources */,
+				55CD2DCB1A0195C800381FB1 /* ViewController.swift in Sources */,
+				55CD2DCA1A0195C800381FB1 /* AppDelegate.swift in Sources */,
+				55CD2DD11A01970000381FB1 /* SwiftStickView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,25 +266,6 @@
 			targetProxy = 55CD2DB61A01950D00381FB1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		55CD2DA91A01950C00381FB1 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				55CD2DAA1A01950C00381FB1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		55CD2DAE1A01950C00381FB1 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				55CD2DAF1A01950C00381FB1 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		55CD2DBD1A01950D00381FB1 /* Debug */ = {
@@ -338,7 +351,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = SwiftStick/Info.plist;
+				INFOPLIST_FILE = "SwiftStick/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -348,7 +361,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = SwiftStick/Info.plist;
+				INFOPLIST_FILE = "SwiftStick/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
