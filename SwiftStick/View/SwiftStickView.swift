@@ -22,24 +22,6 @@
 
 import UIKit
 
-func +(left: CGPoint, right: CGPoint) -> CGPoint {
-    var sum = CGPointZero
-    
-    sum.x = left.x + right.x
-    sum.y = left.y + right.y
-    
-    return sum
-}
-
-func -(left: CGPoint, right: CGPoint) -> CGPoint {
-    var sum = CGPointZero
-    
-    sum.x = left.x - right.x
-    sum.y = left.y - right.y
-    
-    return sum
-}
-
 enum SwiftStickDirection: Printable {
     case None, Up, UpLeft, UpRight, Left, Right, DownLeft, DownRight, Down
     
@@ -233,7 +215,10 @@ protocol SwiftStickViewDelegate: class {
     }
     
     private func moveStick(var position: CGPoint) {
-        let normalizedPosition = position - baseView.center
+        var normalizedPosition = position
+        normalizedPosition.x -= baseView.center.x
+        normalizedPosition.y -= baseView.center.y
+        
         let len = Double(sqrt(pow(normalizedPosition.x, 2) + pow(normalizedPosition.y, 2)))
         
         let radius = 60.0;
