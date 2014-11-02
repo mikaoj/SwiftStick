@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		55CD2DAD1A01950C00381FB1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55CD2DAC1A01950C00381FB1 /* Images.xcassets */; };
-		55CD2DBC1A01950D00381FB1 /* SwiftStickTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CD2DBB1A01950D00381FB1 /* SwiftStickTests.swift */; };
 		55CD2DCA1A0195C800381FB1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CD2DC61A0195C800381FB1 /* AppDelegate.swift */; };
 		55CD2DCB1A0195C800381FB1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CD2DC71A0195C800381FB1 /* ViewController.swift */; };
 		55CD2DCF1A0196A300381FB1 /* StickDemo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55CD2DCE1A0196A300381FB1 /* StickDemo.storyboard */; };
@@ -17,23 +16,10 @@
 		55CD2DD71A028B9700381FB1 /* StickView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CD2DD61A028B9700381FB1 /* StickView.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		55CD2DB61A01950D00381FB1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 55CD2D981A01950C00381FB1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 55CD2D9F1A01950C00381FB1;
-			remoteInfo = SwiftStick;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		55CD2DA01A01950C00381FB1 /* SwiftStick.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftStick.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55CD2DA41A01950C00381FB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		55CD2DAC1A01950C00381FB1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		55CD2DB51A01950D00381FB1 /* SwiftStickTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftStickTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		55CD2DBA1A01950D00381FB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		55CD2DBB1A01950D00381FB1 /* SwiftStickTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftStickTests.swift; sourceTree = "<group>"; };
 		55CD2DC61A0195C800381FB1 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		55CD2DC71A0195C800381FB1 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		55CD2DCE1A0196A300381FB1 /* StickDemo.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = StickDemo.storyboard; sourceTree = "<group>"; };
@@ -50,13 +36,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		55CD2DB21A01950D00381FB1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -64,7 +43,6 @@
 			isa = PBXGroup;
 			children = (
 				55CD2DA21A01950C00381FB1 /* SwiftStick */,
-				55CD2DB81A01950D00381FB1 /* SwiftStickTests */,
 				55CD2DA11A01950C00381FB1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -73,7 +51,6 @@
 			isa = PBXGroup;
 			children = (
 				55CD2DA01A01950C00381FB1 /* SwiftStick.app */,
-				55CD2DB51A01950D00381FB1 /* SwiftStickTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -96,23 +73,6 @@
 				55CD2DA41A01950C00381FB1 /* Info.plist */,
 			);
 			path = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		55CD2DB81A01950D00381FB1 /* SwiftStickTests */ = {
-			isa = PBXGroup;
-			children = (
-				55CD2DBB1A01950D00381FB1 /* SwiftStickTests.swift */,
-				55CD2DB91A01950D00381FB1 /* Supporting Files */,
-			);
-			path = SwiftStickTests;
-			sourceTree = "<group>";
-		};
-		55CD2DB91A01950D00381FB1 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				55CD2DBA1A01950D00381FB1 /* Info.plist */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		55CD2DC51A0195C800381FB1 /* Controller */ = {
@@ -162,24 +122,6 @@
 			productReference = 55CD2DA01A01950C00381FB1 /* SwiftStick.app */;
 			productType = "com.apple.product-type.application";
 		};
-		55CD2DB41A01950D00381FB1 /* SwiftStickTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 55CD2DC21A01950D00381FB1 /* Build configuration list for PBXNativeTarget "SwiftStickTests" */;
-			buildPhases = (
-				55CD2DB11A01950D00381FB1 /* Sources */,
-				55CD2DB21A01950D00381FB1 /* Frameworks */,
-				55CD2DB31A01950D00381FB1 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				55CD2DB71A01950D00381FB1 /* PBXTargetDependency */,
-			);
-			name = SwiftStickTests;
-			productName = SwiftStickTests;
-			productReference = 55CD2DB51A01950D00381FB1 /* SwiftStickTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -191,10 +133,6 @@
 				TargetAttributes = {
 					55CD2D9F1A01950C00381FB1 = {
 						CreatedOnToolsVersion = 6.1;
-					};
-					55CD2DB41A01950D00381FB1 = {
-						CreatedOnToolsVersion = 6.1;
-						TestTargetID = 55CD2D9F1A01950C00381FB1;
 					};
 				};
 			};
@@ -212,7 +150,6 @@
 			projectRoot = "";
 			targets = (
 				55CD2D9F1A01950C00381FB1 /* SwiftStick */,
-				55CD2DB41A01950D00381FB1 /* SwiftStickTests */,
 			);
 		};
 /* End PBXProject section */
@@ -224,13 +161,6 @@
 			files = (
 				55CD2DCF1A0196A300381FB1 /* StickDemo.storyboard in Resources */,
 				55CD2DAD1A01950C00381FB1 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		55CD2DB31A01950D00381FB1 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,23 +179,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		55CD2DB11A01950D00381FB1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				55CD2DBC1A01950D00381FB1 /* SwiftStickTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		55CD2DB71A01950D00381FB1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 55CD2D9F1A01950C00381FB1 /* SwiftStick */;
-			targetProxy = 55CD2DB61A01950D00381FB1 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		55CD2DBD1A01950D00381FB1 /* Debug */ = {
@@ -367,40 +281,6 @@
 			};
 			name = Release;
 		};
-		55CD2DC31A01950D00381FB1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = SwiftStickTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftStick.app/SwiftStick";
-			};
-			name = Debug;
-		};
-		55CD2DC41A01950D00381FB1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = SwiftStickTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftStick.app/SwiftStick";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -420,14 +300,7 @@
 				55CD2DC11A01950D00381FB1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		55CD2DC21A01950D00381FB1 /* Build configuration list for PBXNativeTarget "SwiftStickTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				55CD2DC31A01950D00381FB1 /* Debug */,
-				55CD2DC41A01950D00381FB1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
